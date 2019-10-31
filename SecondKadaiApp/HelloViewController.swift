@@ -33,9 +33,6 @@ class HelloViewController: UIViewController {
 
         // Do any additional setup after loading the view.
 
-        print("表示開始")
-        print(hour)
-        print("時間取得完了")
         var greetingPrefix: String {
             switch hour {
             case 0...4:
@@ -50,7 +47,7 @@ class HelloViewController: UIViewController {
                 return "こんにちは"
             }
         }
-        print(greetingPrefix)
+
         if (name.isEmpty) {
             name = "誰か"
         }
