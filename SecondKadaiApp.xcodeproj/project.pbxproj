@@ -12,6 +12,7 @@
 		3ECBCD9D236A7C8C0054F5B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ECBCD9B236A7C8C0054F5B5 /* Main.storyboard */; };
 		3ECBCD9F236A7C8D0054F5B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ECBCD9E236A7C8D0054F5B5 /* Assets.xcassets */; };
 		3ECBCDA2236A7C8D0054F5B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ECBCDA0236A7C8D0054F5B5 /* LaunchScreen.storyboard */; };
+		3ECBCDAA236A81D00054F5B5 /* HelloViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECBCDA9236A81D00054F5B5 /* HelloViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		3ECBCD9E236A7C8D0054F5B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3ECBCDA1236A7C8D0054F5B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3ECBCDA3236A7C8D0054F5B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ECBCDA9236A81D00054F5B5 /* HelloViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				3ECBCD9E236A7C8D0054F5B5 /* Assets.xcassets */,
 				3ECBCDA0236A7C8D0054F5B5 /* LaunchScreen.storyboard */,
 				3ECBCDA3236A7C8D0054F5B5 /* Info.plist */,
+				3ECBCDA9236A81D00054F5B5 /* HelloViewController.swift */,
 			);
 			path = SecondKadaiApp;
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3ECBCDAA236A81D00054F5B5 /* HelloViewController.swift in Sources */,
 				3ECBCD9A236A7C8C0054F5B5 /* ViewController.swift in Sources */,
 				3ECBCD98236A7C8C0054F5B5 /* AppDelegate.swift in Sources */,
 			);
@@ -285,6 +289,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2649K2YR7F;
 				INFOPLIST_FILE = SecondKadaiApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +308,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2649K2YR7F;
 				INFOPLIST_FILE = SecondKadaiApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
